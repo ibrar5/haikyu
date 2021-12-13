@@ -1,0 +1,434 @@
+body {
+    text-align: center;
+}
+::selection{
+    background-color: black;
+    color: white;
+}
+nav img {
+    height: 45px;
+    width: auto;
+    margin-top: -2px;
+    position: relative;
+    top: -3px;
+}
+#sobi {
+    width: 100%;
+}
+p {
+    font-size: 19px;
+}
+table {
+    width: 1000px;
+    margin-bottom: 25px;
+}
+.no {
+    width: 200px;
+}
+.name {
+    width: 450px;
+}
+::-webkit-scrollbar{
+    background-color: transparent;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+}
+.rd{
+    width: 200px;
+}
+.type{
+    width: 100px;
+}
+table a{
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+}
+table a:hover{
+    color: darkblue;
+}
+.red {
+    color: red;
+}
+.red a{
+    color: red;
+}
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.navbar-brand {
+    margin-top: -10px;
+}
+div a {
+    color: white;
+    font-family: 'mate';
+    font-size: 20px;
+}
+table a{
+    color: black;
+    font-family: 'Mate', serif;
+}
+.navbar-brand {
+    margin-top: -10px;
+}
+.navbar-brand img{
+    height: 50px;
+    width: 150px;
+}
+.big{
+    font-size: 19px;
+}
+.n {
+    font-family: 'Mate', serif;
+    font-weight: 700;
+}
+table a {
+    margin-top: -0px;
+}
+.line {
+    height: 3px;
+    width: 100px;
+    margin-right: 5px;
+    background-color: black;
+}
+.part {
+    margin-right: 6px;
+}
+.ab {
+    font-size: 20px;
+    font-family: 'Mate', serif;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.ty {
+    font-size:20px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.med{
+    position: relative;
+}
+@media (max-width: 575px) {
+    .med {
+        font-size: 25px;
+        font-weight: 600;
+        font-family: 'Mate', serif;
+    }
+    
+    .form{
+        width: 280px;
+        height: 380px;
+        position: relative;
+        margin: 6% auto;
+        background-color: white;
+        border-radius: 10px;
+        padding: 5px;
+    
+    }
+}
+@media (min-width: 576px) {
+    .med {
+        font-size: 35px;
+        font-family: 'Mate', serif;
+    }
+    
+    .form{
+        width: 280px;
+        height: 380px;
+        position: relative;
+        margin: 6% auto;
+        background-color: white;
+        border-radius: 10px;
+        padding: 5px;
+    
+    }
+}
+@media (max-width: 575px) {
+    .n {
+        font-size: 17px;
+    }
+    .avat{
+        position: relative;
+        top: 15px;
+    }
+}
+@media (min-width: 576px) {
+    .n {
+        font-size: 20px;
+    }
+    .avat{
+        position: relative;
+        top: 30px;
+    }
+}
+.sp {
+    margin-top: -450px;
+    margin-bottom: 400px;
+}
+.sp2 {
+    margin-top: -350px;
+    margin-bottom: 300px;
+}
+.form{
+    padding-top: 50px;
+    
+}
+@media (max-width: 575px) {
+    audio {
+        width: 250px;
+        border: 0px;
+    }
+    .ccontainer {
+        margin-left: 0;
+    }
+    .pagination{
+        margin-left: 0px;;
+    }
+}
+@media (min-width: 576px) {
+    audio {
+        width: 350px;
+        border: 0px;
+    }
+    .ccontainer{
+        padding-left: 100px;
+    }
+    .pagination{
+        margin-left: 300px;;
+    }
+}
+#dub {
+    display: none;
+}
+blockquote {
+    margin-bottom: 25px;
+}
+@media (max-width: 800px) {
+    .ccontainer {
+        margin-left: 0;
+    }
+    #imp {
+        margin-right: 15px;
+        margin-left: 0px;
+    }
+   
+
+}
+@media (min-width: 801px) {
+    .ccontainer{
+        margin-left: 0px;
+    }
+    
+}
+#imp {
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.page-header {
+    font-family: 'mate', serif;
+}
+#impc {
+    margin-top: -40px;
+}
+.med {
+    
+    margin-top: -20px;
+}
+#cobi {
+    display: none;
+}
+.imge {
+    width: 100%;
+}
+audio{
+    outline: none;
+    color: black;
+}
+@media (max-width: 400px) {
+    marquee {
+        position: relative;
+        top: -100px;
+        color: white;
+        font-family: 'mate', serif;
+        font-size: 25px;
+        width: 400px;
+        font-weight: 700;
+    }
+    .vpn{
+        position: relative;
+        top: -80px;
+        color: white;
+        font-family: 'mate', serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .spe{
+        height: auto;
+    }
+    .ccontainer {
+        padding-left: 20px;
+    }
+    .al{
+        position: relative;
+        top: -50px;
+    }
+}
+@media (min-width: 401px) and (max-width: 992px) {
+    marquee {
+        position: relative;
+        top: -150px;
+        color: white;
+        font-family: 'mate', serif;
+        font-size: 25px;
+        width: 400px;
+        font-weight: 700;
+    }
+    .vpn{
+        position: relative;
+        top: -130px;
+        color: white;
+        font-family: 'mate', serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .spe{
+        height: auto;
+    }
+    .ccontainer {
+        padding-left: 20px;
+    }
+    .al{
+        position: relative;
+        top: -50px;
+    }
+}
+@media (min-width: 993px) {
+    marquee {
+        position: relative;
+        top: -375px;
+        color: white;
+        font-family: 'mate', serif;
+        font-size: 35px;
+        width: 900px;
+        font-weight: 700;
+    }
+    .vpn{
+        position: relative;
+        top: -355px;
+        color: white;
+        font-family: 'mate', serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .spe{
+        height: 10pc;
+    }
+    .ccontainer {
+        padding-left: 100px;
+    }
+    .al{
+        position: relative;
+        top: -200px;
+    }
+}
+.body1{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+th{
+    vertical-align: bottom;
+}
+#exp{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.input{
+    width: 70%;
+    margin: 20px 0px;
+    position: relative;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    outline: none;
+    
+}
+.btn-success{
+    width: 50%;
+    position: relative;
+    margin-top: 30px;
+}
+.ch{
+    padding-top: 10px;
+}
+abbr{
+    position: relative;
+    left: -15px;
+}
+@media (min-width: 768px) {
+    .spe{
+        height: 10em;
+    }
+    #rd{
+        display: none;
+    }
+}
+input[type = "checkbox"]{
+    position: relative;
+    height: 25px;
+    width: 50px;
+    -webkit-appearance: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: 500ms;
+    outline: none;
+}
+input:checked[type = "checkbox"]{
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+}
+input[type = "checkbox"]::before{
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    transform: scale(0.8);
+    box-shadow: 2px 0px 2px;
+    transition: .5s;
+    outline: none;
+}
+input:checked[type = "checkbox"]::before{
+    left: 25px;
+    outline: none;
+}
+.duru{
+    font-size: 25px;
+    font-family: 'mate', serif;
+    font-weight: 100;
+}
+#inp{
+    outline: none;
+}
+#div1 a{
+    color: black;
+}
+#body1 .list-group-item{
+    background-color: transparent;
+    border: transparent;
+}
